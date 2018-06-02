@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on weiweimilk - just another blog</title>
+    <link>https://github.com/weiweimilk/tags/</link>
+    <description>Recent content in Tags on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 Jun 2018 17:51:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://github.com/weiweimilk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monitor</title>
+      <link>https://github.com/weiweimilk/tags/monitor/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/tags/monitor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://github.com/weiweimilk/tags/overview/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/tags/overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory</title>
+      <link>https://github.com/weiweimilk/tags/theory/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Think</title>
+      <link>https://github.com/weiweimilk/tags/think/</link>
+      <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/tags/think/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

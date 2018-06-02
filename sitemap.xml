@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://github.com/weiweimilk/zh-cn/sitemap.xml</loc>
+		
+	   	<lastmod>2018-06-02T17:51:02+08:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://github.com/weiweimilk/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

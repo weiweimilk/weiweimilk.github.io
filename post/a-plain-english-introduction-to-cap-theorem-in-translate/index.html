@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>【translate】a-plain-english-introduction-to-cap-theorem - weiweimilk - just another blog</title>
+  <link rel="alternate" hreflang="zh-cn" href="https://github.com/weiweimilk/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="weiweimilk" />
+  <meta name="description" content="前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，" />
+
+  <meta name="keywords" content="programmer, analysist, monitor" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/" />
+
+
+
+<link rel="icon" href="/weiweimilk/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/weiweimilk/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="【translate】a-plain-english-introduction-to-cap-theorem" />
+<meta property="og:description" content="前言： &gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &gt; * consistency(一致性): 每次read，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/" />
+
+
+
+<meta property="article:published_time" content="2017-08-31T15:43:48&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-08-31T15:43:48&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="【translate】a-plain-english-introduction-to-cap-theorem">
+<meta itemprop="description" content="前言： &gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &gt; * consistency(一致性): 每次read，">
+
+
+<meta itemprop="datePublished" content="2017-08-31T15:43:48&#43;08:00" />
+<meta itemprop="dateModified" content="2017-08-31T15:43:48&#43;08:00" />
+<meta itemprop="wordCount" content="888">
+
+
+
+<meta itemprop="keywords" content="theory," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="【translate】a-plain-english-introduction-to-cap-theorem"/>
+<meta name="twitter:description" content="前言： &gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &gt; * consistency(一致性): 每次read，"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/weiweimilk/" class="logo">weiweimilk</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk/">
+          Home
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk/post/">
+          Archives
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk/tags/">
+          Tags
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk/categories/">
+          Categories
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk/about/">
+          About
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="https://github.com/weiweimilk">
+          GitHub
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/weiweimilk/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/weiweimilk/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/weiweimilk/" class="logo">
+    
+      weiweimilk
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk/about/">About</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/weiweimilk" rel="noopener" target="_blank">
+              GitHub
+            <i class="iconfont icon-new-window"></i>
+            </a>
+          
+
+        
+
+      </li>
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">【translate】a-plain-english-introduction-to-cap-theorem</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2017-08-31 </span>
+        <div class="post-category">
+            
+              <a href="/weiweimilk/categories/distribute-system/"> distribute system </a>
+            
+          </div>
+        <span class="more-meta"> 约 888 字 </span>
+        <span class="more-meta"> 预计阅读 2 分钟 </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#正文">正文</a></li>
+<li><a href="#chapter-1-记忆力公司-你的新事业">Chapter 1: 记忆力公司，你的新事业</a></li>
+<li><a href="#chapter-2-公司扩张">chapter 2: 公司扩张</a></li>
+<li><a href="#chapter-3">chapter 3:</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<p>前言：
+&gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交：
+&gt; * consistency(一致性): 每次read，要么能获取到最新的数据，要么获取失败（错误或超时）
+&gt; * availability(可用性): 每次请求肯定会有正确的数据（但不保证数据是最新）
+&gt; * partition tolerance(分区容忍性): 尽管有部分消息在节点间丢失，但是系统还可以正常运行</p>
+
+<h2 id="正文">正文</h2>
+
+<p>当设计分布式系统时，你会经常听到CAP理论指定了某种设计上限。和我的其他入门级文章一样，本篇文章尝试通过真实案例理解CAP理论。</p>
+
+<h2 id="chapter-1-记忆力公司-你的新事业">Chapter 1: 记忆力公司，你的新事业</h2>
+
+<p>昨晚当你的妻子感激你记住她的生日并且准备了礼物的时候，一个奇怪的点子戛然而出。通常人们不善于记忆，而你的记忆力却出奇的好。为什么不利用你的天分开启新事业呢？这个点子越想越靠谱。事实上，你已经想好解释新点子的广告语：
+&gt; 记忆力公司！ - 无需您记忆也永远不会忘记！
+&gt; 经常会忘记事情？没关系，一个电话就能搞定！
+&gt; 当你需要记忆事情时，直接拨打555-555-REMEM，告诉我们你需要记忆什么。比如你想记住老板的手机号，直接拨打给我们，当你需要用到时，直接拨打同样号码，我们会告知您老板的手机号码。
+&gt; 收费：每次1美分</p>
+
+<p>所以每次电话交流通常是这样的：
+* 客户：你好，能帮我存储下邻居的生日吗？
+* 公司：好的，什么时候呢？
+* 客户：2月2号
+* 公司：（在这个用户的主页中写下来）已经存储，当你需要知道邻居的生日时，请随时指点我们。
+* 客户：多谢！
+* 公司：没问题，此次服务收费1美分。</p>
+
+<h2 id="chapter-2-公司扩张">chapter 2: 公司扩张</h2>
+
+<p>你的工作获取Y孵化器的融资，创业点子如此简单，成本很低（只需笔记本和电话），公司进展蒸蒸日上。每天都有好几百个电话。
+你逐渐遇到了一些问题，发现越来越多的客户不得不等待与你通话，许多客户甚至等得不耐烦直接挂电话了。另外假如某天你生病了，那么这天公司就失去了一天的业务，甚至这天不能提供服务还会导致老用户不满意。
+所以，你决定让你妻子加入到你的事业来。
+你启动了一个建议计划：
+* 你和你妻子都有一个分机
+* 客户仍然只需要拨打555-555-RMEM
+* 电话交换机会将客户的来电分发给空闲的分机</p>
+
+<h2 id="chapter-3">chapter 3:</h2>
+
+<p><a href="http://ksat.me/a-plain-english-introduction-to-cap-theorem/">http://ksat.me/a-plain-english-introduction-to-cap-theorem/</a></p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">weiweimilk</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2017-08-31</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener" target="_blank">See origin</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/weiweimilk/tags/theory/">theory</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/weiweimilk/post/deep-thinking/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">deep thinking</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+      </nav>
+    </footer>
+    
+
+  
+
+  
+
+  
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:weizhou.cs@hostmail.com" rel="me noopener" class="iconfont icon-email"
+        title="email" target="_blank">
+      </a>
+      <a href="https://github.com/weiweimilk" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://github.com/weiweimilk/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">weiweimilk</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/weiweimilk/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/weiweimilk/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/weiweimilk/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/weiweimilk/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/weiweimilk/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/weiweimilk/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

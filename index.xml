@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weiweimilk - just another blog</title>
+    <link>https://github.com/weiweimilk/</link>
+    <description>Recent content on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    
+        <atom:link href="https://github.com/weiweimilk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://github.com/weiweimilk/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/about/</guid>
+      
+        <description>&lt;p&gt;A blog for weiweimilk&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>monitor system overview</title>
+      <link>https://github.com/weiweimilk/post/monitor-system-over/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/monitor-system-over/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>deep thinking</title>
+      <link>https://github.com/weiweimilk/post/deep-thinking/</link>
+      <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/deep-thinking/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;show-me-the-point-深度思考&#34;&gt;【show me the point】深度思考&lt;/h1&gt;
+
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;工作不到三年，最近一年，遇到一些事情，开始督促自己反思自己的做事方法，发现自己缺乏深度思考，导致事倍功半，吃力不讨好，希望通过一篇总结来反省下自己。&lt;/p&gt;
+
+&lt;p&gt;还在持续阅读下面书籍当中：
+《暗时间》
+《思考，快与慢》&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;困惑&#34;&gt;困惑&lt;/h2&gt;
+
+&lt;p&gt;工作生活中会有如下一些现象：
+1. 学生年代会搞科研发论文，但是经常被拒稿，评审意见是你的方案并不能解决你提出的问题，你看到评审意见后，连忙拍大腿，“是啊，这个简单的漏洞怎么没发现呢？”。
+1. 工作中，自己经常会主导一些项目，项目的需求、技术方案、项目研发、上线等都需要自己全程跟踪，经常会发生之前评审过的方案到了研发阶段才发现方案的漏洞，导致返工，项目延期，不仅自己搞的精疲力尽，还给boss留下不好的印象。
+1. 参加会议讨论技术方案的时候，你突然灵光一闪，对啊，“这个问题可以这么来解决”，你就迫不及待地发表你的观点，结果刚一说回去，就被人给怼回去了，说这个方案很不靠谱，搞的自己很郁闷、甚至怀疑自己的能力。&lt;/p&gt;
+
+&lt;p&gt;工作、学习、生活中，很有很多类似上面的场景，一开始我们满怀激情去解决问题，由于自己对事情的思考不够，导致自己总是遇到坎，从而导致自己挫败感很强、自信心受到打击，事情进展很缓慢，不开心！！！&lt;/p&gt;
+
+&lt;h2 id=&#34;深度思考&#34;&gt;深度思考&lt;/h2&gt;
+
+&lt;p&gt;套用最近流行的深度学习（deep learning）的话术，上面造成困惑的最大原因是你没有深度思考（deep thinking）。思考这个词大家都很了解，就是思维的探索过程，深度代表看到问题的本质，而不是浮于表面。
+深度思考可以让你问题的本质，而不是浮于表面，一直是在“不仅要正确的做事，做正确的事情”。
+经过深度思考得出的方案一般都是说服力很强的，这样在说服别人、推送项目、提高个人影响力都有极大的好处的。&lt;/p&gt;
+
+&lt;p&gt;那如何才能深度思考，方法有很多种，下面基于我当前的认知水平给出我自己的见解。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首先，在工作生活中，一定要给深度思考留下固定的时间，没有时间思考，何来的深度思考呢？&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;其次我们可以借助各种思维工具和框架来辅助我们深度思考：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5W2H分析法：这个方法有很多介绍，我就不具体描述方法，它可以帮助我们全方位思考问题，这里说下我的使用习惯。在对一件事情思考的时候，我会填写5w2H共7个方面的问题，给出自己的初步答案。然后再针对每一方面都多问自己，“真的这样的吗？合理吗？是否还有其他方案？方案的对立面为什么不对？别人预计会怎么想呢？”经过这么一轮的思考，自己得出的方案基本是靠谱的。&lt;/li&gt;
+&lt;li&gt;脑图：是另一个整理思路的工具，整理的时候按照MECE原则，即不重不漏。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当前，借助上面的工具思考得出的方案大部分情况下不是最优的方案，问题认识都是由浅到深，随着自己的经验和项目和知识的扩展，往往会有好的方案，除了周期性的review自己的方案外，还可以在得出自己方案的时候，多多与别人（高手）沟通，（如何高效与人沟通，下面会写另一篇文章）&lt;/p&gt;
+
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;本文主要介绍了深度思考，当然这个是个很大的话题，希望能给读者一个启发，提高自己的职场竞争力。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>【translate】a-plain-english-introduction-to-cap-theorem</title>
+      <link>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
+      
+        <description>
+
+&lt;p&gt;前言：
+&amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交：
+&amp;gt; * consistency(一致性): 每次read，要么能获取到最新的数据，要么获取失败（错误或超时）
+&amp;gt; * availability(可用性): 每次请求肯定会有正确的数据（但不保证数据是最新）
+&amp;gt; * partition tolerance(分区容忍性): 尽管有部分消息在节点间丢失，但是系统还可以正常运行&lt;/p&gt;
+
+&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+
+&lt;p&gt;当设计分布式系统时，你会经常听到CAP理论指定了某种设计上限。和我的其他入门级文章一样，本篇文章尝试通过真实案例理解CAP理论。&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-1-记忆力公司-你的新事业&#34;&gt;Chapter 1: 记忆力公司，你的新事业&lt;/h2&gt;
+
+&lt;p&gt;昨晚当你的妻子感激你记住她的生日并且准备了礼物的时候，一个奇怪的点子戛然而出。通常人们不善于记忆，而你的记忆力却出奇的好。为什么不利用你的天分开启新事业呢？这个点子越想越靠谱。事实上，你已经想好解释新点子的广告语：
+&amp;gt; 记忆力公司！ - 无需您记忆也永远不会忘记！
+&amp;gt; 经常会忘记事情？没关系，一个电话就能搞定！
+&amp;gt; 当你需要记忆事情时，直接拨打555-555-REMEM，告诉我们你需要记忆什么。比如你想记住老板的手机号，直接拨打给我们，当你需要用到时，直接拨打同样号码，我们会告知您老板的手机号码。
+&amp;gt; 收费：每次1美分&lt;/p&gt;
+
+&lt;p&gt;所以每次电话交流通常是这样的：
+* 客户：你好，能帮我存储下邻居的生日吗？
+* 公司：好的，什么时候呢？
+* 客户：2月2号
+* 公司：（在这个用户的主页中写下来）已经存储，当你需要知道邻居的生日时，请随时指点我们。
+* 客户：多谢！
+* 公司：没问题，此次服务收费1美分。&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-2-公司扩张&#34;&gt;chapter 2: 公司扩张&lt;/h2&gt;
+
+&lt;p&gt;你的工作获取Y孵化器的融资，创业点子如此简单，成本很低（只需笔记本和电话），公司进展蒸蒸日上。每天都有好几百个电话。
+你逐渐遇到了一些问题，发现越来越多的客户不得不等待与你通话，许多客户甚至等得不耐烦直接挂电话了。另外假如某天你生病了，那么这天公司就失去了一天的业务，甚至这天不能提供服务还会导致老用户不满意。
+所以，你决定让你妻子加入到你的事业来。
+你启动了一个建议计划：
+* 你和你妻子都有一个分机
+* 客户仍然只需要拨打555-555-RMEM
+* 电话交换机会将客户的来电分发给空闲的分机&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-3&#34;&gt;chapter 3:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ksat.me/a-plain-english-introduction-to-cap-theorem/&#34;&gt;http://ksat.me/a-plain-english-introduction-to-cap-theorem/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

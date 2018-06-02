@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="https://github.com/weiweimilk/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://github.com/weiweimilk/about/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/post/monitor-system-over/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/post/deep-thinking/</loc>
+    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</loc>
+    <lastmod>2017-08-31T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/categories/career/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/categories/career-development/</loc>
+    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/categories/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/categories/distribute-system/</loc>
+    <lastmod>2017-08-31T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/tags/monitor/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/tags/overview/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/post/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/tags/</loc>
+    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/tags/theory/</loc>
+    <lastmod>2017-08-31T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/tags/think/</loc>
+    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/weiweimilk/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
