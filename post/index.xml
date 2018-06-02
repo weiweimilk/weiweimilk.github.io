@@ -13,28 +13,46 @@
     
     <item>
       <title>monitor system overview</title>
-      <link>https://github.com/weiweimilk/post/monitor-system-over/</link>
+      <link>https://github.com/weiweimilk/post/todo-distibute-trace-system-over/</link>
       <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/monitor-system-over/</guid>
+      <guid>https://github.com/weiweimilk/post/todo-distibute-trace-system-over/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitor system overview</title>
+      <link>https://github.com/weiweimilk/post/todo-monitor-system-over/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/todo-monitor-system-over/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitor system overview</title>
+      <link>https://github.com/weiweimilk/post/todo-tsdb-over/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/todo-tsdb-over/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep thinking</title>
-      <link>https://github.com/weiweimilk/post/deep-thinking/</link>
+      <link>https://github.com/weiweimilk/post/2018-05-25-deep-thinking/</link>
       <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/deep-thinking/</guid>
+      <guid>https://github.com/weiweimilk/post/2018-05-25-deep-thinking/</guid>
       <description>【show me the point】深度思考 背景 工作不到三年，最近一年，遇到一些事情，开始督促自己反思自己的做事方法，发现自己缺乏深度思考，导致事倍功</description>
     </item>
     
     <item>
       <title>【translate】a-plain-english-introduction-to-cap-theorem</title>
-      <link>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</link>
+      <link>https://github.com/weiweimilk/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
+      <guid>https://github.com/weiweimilk/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
       <description>前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，</description>
     </item>
     

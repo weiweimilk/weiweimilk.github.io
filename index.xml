@@ -19,16 +19,40 @@
       <guid>https://github.com/weiweimilk/about/</guid>
       
         <description>&lt;p&gt;A blog for weiweimilk&lt;/p&gt;
+
+&lt;p&gt;博客搭建参考: &lt;a href=&#34;https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/&#34;&gt;https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
       <title>monitor system overview</title>
-      <link>https://github.com/weiweimilk/post/monitor-system-over/</link>
+      <link>https://github.com/weiweimilk/post/todo-distibute-trace-system-over/</link>
       <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/monitor-system-over/</guid>
+      <guid>https://github.com/weiweimilk/post/todo-distibute-trace-system-over/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>monitor system overview</title>
+      <link>https://github.com/weiweimilk/post/todo-monitor-system-over/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/todo-monitor-system-over/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>monitor system overview</title>
+      <link>https://github.com/weiweimilk/post/todo-tsdb-over/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://github.com/weiweimilk/post/todo-tsdb-over/</guid>
       
         <description></description>
       
@@ -36,10 +60,10 @@
     
     <item>
       <title>deep thinking</title>
-      <link>https://github.com/weiweimilk/post/deep-thinking/</link>
+      <link>https://github.com/weiweimilk/post/2018-05-25-deep-thinking/</link>
       <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/deep-thinking/</guid>
+      <guid>https://github.com/weiweimilk/post/2018-05-25-deep-thinking/</guid>
       
         <description>
 
@@ -94,10 +118,10 @@
     
     <item>
       <title>【translate】a-plain-english-introduction-to-cap-theorem</title>
-      <link>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</link>
+      <link>https://github.com/weiweimilk/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://github.com/weiweimilk/post/a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
+      <guid>https://github.com/weiweimilk/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
       
         <description>
 
