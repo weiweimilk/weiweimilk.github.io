@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://github.com/weiweimilk/"
 title = "weiweimilk - just another blog"
 enableRobotsTXT = true
 enableEmoji = true
