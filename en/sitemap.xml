@@ -10,27 +10,6 @@
   </url>
   
   <url>
-    <loc>https://weiweimilk.github.io/post/todo-distibute-trace-system-over/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/post/todo-monitor-system-over/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/post/todo-tsdb-over/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://weiweimilk.github.io/post/2018-05-25-deep-thinking/</loc>
     <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,13 +24,6 @@
   </url>
   
   <url>
-    <loc>https://weiweimilk.github.io/categories/career/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://weiweimilk.github.io/categories/career-development/</loc>
     <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,7 +32,7 @@
   
   <url>
     <loc>https://weiweimilk.github.io/categories/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -73,29 +45,14 @@
   </url>
   
   <url>
-    <loc>https://weiweimilk.github.io/tags/monitor/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/tags/overview/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://weiweimilk.github.io/post/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
+    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://weiweimilk.github.io/tags/</loc>
-    <lastmod>2018-06-02T17:51:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
