@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Monitor System · weiweimilk - just another blog</title>
+  <title>监控系统系列：（一）总览 - weiweimilk - just another blog</title>
   <link rel="alternate" hreflang="en" href="https://weiweimilk.github.io/" />
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="weiweimilk" />
-  <meta name="description" content="A blog for weiweimilk" />
+  <meta name="description" content="监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。 本系列首先会讲述监控系统的" />
+
   <meta name="keywords" content="programmer, analysist, monitor" />
 
 
@@ -36,8 +37,7 @@
 <meta name="generator" content="Hugo 0.41" />
 
 
-<link rel="canonical" href="https://weiweimilk.github.io/categories/monitor-system/" />
-<link href="https://weiweimilk.github.io/categories/monitor-system/index.xml" rel="alternate" type="application/rss+xml" title="weiweimilk - just another blog" />
+<link rel="canonical" href="https://weiweimilk.github.io/post/monitor-system/01-monitor-system-overview-2018-06-02/" />
 
 
 
@@ -57,30 +57,41 @@
 
 
 
-<meta property="og:title" content="Monitor System" />
-<meta property="og:description" content="A blog for weiweimilk" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://weiweimilk.github.io/categories/monitor-system/" />
+<meta property="og:title" content="监控系统系列：（一）总览" />
+<meta property="og:description" content="监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。 本系列首先会讲述监控系统的" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://weiweimilk.github.io/post/monitor-system/01-monitor-system-overview-2018-06-02/" />
 
 
 
-<meta property="og:updated_time" content="2018-06-02T17:51:02&#43;08:00"/>
+<meta property="article:published_time" content="2018-06-02T17:51:02&#43;08:00"/>
 
-
-
-
-
-
+<meta property="article:modified_time" content="2018-06-02T17:51:02&#43;08:00"/>
 
 
 
 
-<meta itemprop="name" content="Monitor System">
-<meta itemprop="description" content="A blog for weiweimilk">
 
+
+
+
+
+
+
+<meta itemprop="name" content="监控系统系列：（一）总览">
+<meta itemprop="description" content="监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。 本系列首先会讲述监控系统的">
+
+
+<meta itemprop="datePublished" content="2018-06-02T17:51:02&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-02T17:51:02&#43;08:00" />
+<meta itemprop="wordCount" content="204">
+
+
+
+<meta itemprop="keywords" content="overview," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Monitor System"/>
-<meta name="twitter:description" content="A blog for weiweimilk"/>
+<meta name="twitter:title" content="监控系统系列：（一）总览"/>
+<meta name="twitter:description" content="监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。 本系列首先会讲述监控系统的"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -289,56 +300,109 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-
-<section id="archive" class="archive">
-  
+          <article class="post bg-white">
     
-      <div class="archive-title category">
-        <h2 class="archive-name">Category: Monitor System</h2>
+    <header class="post-header">
+      <h1 class="post-title">监控系统系列：（一）总览</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-02 </span>
+        <div class="post-category">
+            
+              <a href="/categories/monitor-system/"> monitor-system </a>
+            
+          </div>
+        <span class="more-meta"> 204 words </span>
+        <span class="more-meta"> 1 min read </span>
       </div>
+    </header>
+
     
-  
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
 
-  
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2018-06-02
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/monitor-system/01-monitor-system-overview-2018-06-02/" class="archive-post-link">
-          监控系统系列：（一）总览
-        </a>
-      </span>
+    
+    <div class="post-content">
+      <p>监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。
+本系列首先会讲述监控系统的五个基础组件，分别讨论各个部分的重点和难点：</p>
+
+<ul>
+<li>数据采集</li>
+<li>汇聚计算</li>
+<li>时间序列存储</li>
+<li>报警</li>
+<li>时间序列数据展示</li>
+</ul>
+
+<p>基础监控系统讲解完毕以后，后面会讨论监控系统的高级功能，包括</p>
+
+<ul>
+<li><strong>分布式定位系统</strong></li>
+<li><strong>报警收敛</strong></li>
+<li><strong>多维度数据分析</strong></li>
+</ul>
+
+<p>一个好的监控系统，也会需要其他的基础设施来支撑，所以这个系列还会介绍：</p>
+
+<ul>
+<li>服务管理</li>
+<li>CMDB</li>
+</ul>
+
     </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">weiweimilk</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-06-02</span>
+  </p>
   
-</section>
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
 
+    
+    
 
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/overview/">overview</a>
+          
+        </div>
 
-
-
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/deep-thinking/deep-thinking-2018-05-25/">
+            <span class="next-text nav-default">deep thinking</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
 
   
-  
+
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-
-
+  </article>
         </div>
       </div>
     </main>

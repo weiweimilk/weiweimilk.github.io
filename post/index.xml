@@ -13,28 +13,28 @@
     
     <item>
       <title>监控系统系列：（一）总览</title>
-      <link>https://weiweimilk.github.io/post/monitor-system/2018-06-02-monitor-system-overview/</link>
+      <link>https://weiweimilk.github.io/post/monitor-system/01-monitor-system-overview-2018-06-02/</link>
       <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
       
-      <guid>https://weiweimilk.github.io/post/monitor-system/2018-06-02-monitor-system-overview/</guid>
+      <guid>https://weiweimilk.github.io/post/monitor-system/01-monitor-system-overview-2018-06-02/</guid>
       <description>监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。 本系列首先会讲述监控系统的</description>
     </item>
     
     <item>
       <title>deep thinking</title>
-      <link>https://weiweimilk.github.io/post/deep-thinking/2018-05-25-deep-thinking/</link>
+      <link>https://weiweimilk.github.io/post/deep-thinking/deep-thinking-2018-05-25/</link>
       <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
       
-      <guid>https://weiweimilk.github.io/post/deep-thinking/2018-05-25-deep-thinking/</guid>
+      <guid>https://weiweimilk.github.io/post/deep-thinking/deep-thinking-2018-05-25/</guid>
       <description>【show me the point】深度思考 背景 工作不到三年，最近一年，遇到一些事情，开始督促自己反思自己的做事方法，发现自己缺乏深度思考，导致事倍功</description>
     </item>
     
     <item>
       <title>【translate】a-plain-english-introduction-to-cap-theorem</title>
-      <link>https://weiweimilk.github.io/post/distribute-system/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</link>
+      <link>https://weiweimilk.github.io/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://weiweimilk.github.io/post/distribute-system/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
+      <guid>https://weiweimilk.github.io/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/</guid>
       <description>前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，</description>
     </item>
     
