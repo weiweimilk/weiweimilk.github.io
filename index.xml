@@ -26,11 +26,35 @@
     </item>
     
     <item>
+      <title>监控系统系列：（一）总览</title>
+      <link>https://weiweimilk.github.io/post/monitor-system/2018-06-02-monitor-system-overview/</link>
+      <pubDate>Sat, 02 Jun 2018 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/monitor-system/2018-06-02-monitor-system-overview/</guid>
+      
+        <description>&lt;p&gt;监控系统在各个公司的运维体系里占据很重要的位置，好的监控系统对快速发现线上问题、线上故障的快速止损等有很大的帮助。
+本系列首先会讲述监控系统的5个组成，包括以下五个部分：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据采集&lt;/li&gt;
+&lt;li&gt;汇聚计算&lt;/li&gt;
+&lt;li&gt;时间序列存储&lt;/li&gt;
+&lt;li&gt;报警&lt;/li&gt;
+&lt;li&gt;时间序列数据展示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这部分会拆除5篇文章，分别讨论各个部分的重点和难点。
+基础监控系统讲解完毕以后，后面会讨论监控系统的高级功能，包括&lt;strong&gt;分布式定位系统&lt;/strong&gt;、&lt;strong&gt;报警收敛&lt;/strong&gt;、&lt;strong&gt;多维度数据分析&lt;/strong&gt;等。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>deep thinking</title>
-      <link>https://weiweimilk.github.io/post/2018-05-25-deep-thinking/</link>
+      <link>https://weiweimilk.github.io/post/deep-thinking/2018-05-25-deep-thinking/</link>
       <pubDate>Fri, 25 May 2018 15:43:48 +0800</pubDate>
       
-      <guid>https://weiweimilk.github.io/post/2018-05-25-deep-thinking/</guid>
+      <guid>https://weiweimilk.github.io/post/deep-thinking/2018-05-25-deep-thinking/</guid>
       
         <description>
 
@@ -85,10 +109,10 @@
     
     <item>
       <title>【translate】a-plain-english-introduction-to-cap-theorem</title>
-      <link>https://weiweimilk.github.io/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</link>
+      <link>https://weiweimilk.github.io/post/distribute-system/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://weiweimilk.github.io/post/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
+      <guid>https://weiweimilk.github.io/post/distribute-system/2017-08-31-a-plain-english-introduction-to-cap-theorem-in-translate/</guid>
       
         <description>
 
