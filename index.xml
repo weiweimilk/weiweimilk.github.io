@@ -36,11 +36,11 @@
 本系列首先会讲述监控系统的五个基础组件，分别讨论各个部分的重点和难点：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;数据采集&lt;/li&gt;
-&lt;li&gt;汇聚计算&lt;/li&gt;
-&lt;li&gt;时间序列存储&lt;/li&gt;
-&lt;li&gt;报警&lt;/li&gt;
-&lt;li&gt;时间序列数据展示&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据采集&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;汇聚计算&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;时间序列存储&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报警判断&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前端展示&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;基础监控系统讲解完毕以后，后面会讨论监控系统的高级功能，包括&lt;/p&gt;
