@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stress Test on weiweimilk - just another blog</title>
+    <link>https://weiweimilk.github.io/tags/stress-test/</link>
+    <description>Recent content in Stress Test on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://weiweimilk.github.io/tags/stress-test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>压力测试 - 方法论</title>
+      <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
+      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</guid>
+      <description>背景 最近在做golang程序的性能优化，大约持续了2天，相关优化思路和思考跟大家分享下。 正文 凡事都是有相关方法论，所以在做之前我们应该想好做</description>
+    </item>
+    
+  </channel>
+</rss>

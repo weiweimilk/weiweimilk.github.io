@@ -6,10 +6,19 @@
     <description>Recent content in Posts on weiweimilk - just another blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Jun 2018 17:51:02 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
     
 	<atom:link href="https://weiweimilk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>压力测试 - 方法论</title>
+      <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
+      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</guid>
+      <description>背景 最近在做golang程序的性能优化，大约持续了2天，相关优化思路和思考跟大家分享下。 正文 凡事都是有相关方法论，所以在做之前我们应该想好做</description>
+    </item>
     
     <item>
       <title>监控系统系列：（一）总览</title>
@@ -36,6 +45,33 @@
       
       <guid>https://weiweimilk.github.io/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/</guid>
       <description>前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</guid>
+      <description>dwz服务 基本原理 实现方案 分配一个短链接 指定一个短链接 cache方案 refer: http://wiki.baidu.com/display/table?src=sidebar dwz的生成算法 http://wiki.baidu.com/display/DWZ?src=sidebar</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</guid>
+      <description>https://github.com/uber/chaperone</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://weiweimilk.github.io/post/open-source/prometheus/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/open-source/prometheus/example/</guid>
+      <description>http://www.infoq.com/cn/articles/Prometheus-theory-source-code</description>
     </item>
     
   </channel>
