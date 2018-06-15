@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>压力测试 - 方法论</title>
+      <title>性能优化/压力测试 - 方法论</title>
       <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
       <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
       
@@ -85,7 +85,9 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Tips:&lt;/p&gt;
+&lt;p&gt;通过上面的两个步骤，成功将性能提升4倍，bingooooo&lt;/p&gt;
+
+&lt;h1 id=&#34;end&#34;&gt;END&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;做事要有方法论，做之前多想思路，往往事半功倍&lt;/li&gt;
