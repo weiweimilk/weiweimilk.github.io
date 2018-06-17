@@ -26,6 +26,64 @@
     </item>
     
     <item>
+      <title>新语言的学习 - golang</title>
+      <link>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</link>
+      <pubDate>Sun, 17 Jun 2018 22:45:00 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;背景&#34;&gt;背景&lt;/h1&gt;
+
+&lt;p&gt;程序员生涯，会学多门计算机语言，从c/c++到java，再到最新的golang，平时还有使用python写写处理脚本等等，那么学习一门新语言正确的姿态是什么样的呢？本文是作者自己的思考历程。&lt;/p&gt;
+
+&lt;h1 id=&#34;踏出第一步&#34;&gt;踏出第一步&lt;/h1&gt;
+
+&lt;p&gt;学习一门语言，首先要学习这门语言的官方文档，把官方的文档全部通读一遍，同时执行编写遇到的每一个例子，这个是很重要的，在这个过程中，你会逐渐熟悉这门语言的语法、惯用方法、周边的工具链等信息，达到入门的目的，比如在学习golang语言的过程中，你需要学习以下信息：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方文档：&lt;a href=&#34;https://golang.org/&#34;&gt;https://golang.org/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;其中包括工具链，并发支持（goroutine）， 内存模式（&lt;a href=&#34;https://golang.org/ref/mem），GC问题，问题定位和性能优化。&#34;&gt;https://golang.org/ref/mem），GC问题，问题定位和性能优化。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在学习上面的一些信息后，我们要思考一个问题：学习的这门语言和之前遇到的语言有什么不同，为什么会出现这门语言，他们各自适用的领域分别是什么？比如golang相对c/c++,java,python的优势和劣势是什么（比如golang缺少泛型）。&lt;/p&gt;
+
+&lt;h1 id=&#34;检验学习成果&#34;&gt;检验学习成果&lt;/h1&gt;
+
+&lt;p&gt;学习一门语言最重要的是应用，语言是否熟悉了，应该写个代理或网络爬虫等练手项目。&lt;/p&gt;
+
+&lt;h1 id=&#34;更深入学习&#34;&gt;更深入学习&lt;/h1&gt;
+
+&lt;p&gt;最后，应该去阅读这门语言一些经典的开源项目，看别人是如何利用这门语言来解决一些问题的。
+根据左耳朵耗子大神的说法，&lt;strong&gt;Go 语言能吞食的一定是 PaaS 上的项目，比如一些消息缓存中间件、服务发现、服务代理、控制系统、Agent、日志收集等等，没有复杂的业务场景，也到不了特别底层（如操作系统）的中间平台层的软件项目或工具&lt;/strong&gt;，所以我们可以看下以下开源代码：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监控系统prometheus：&lt;a href=&#34;https://github.com/prometheus&#34;&gt;https://github.com/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;tsdb：&lt;a href=&#34;https://github.com/prometheus/tsdb&#34;&gt;https://github.com/prometheus/tsdb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;监控系统采集agent：&lt;a href=&#34;https://github.com/cloudinsight/cloudinsight-agent&#34;&gt;https://github.com/cloudinsight/cloudinsight-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;服务发现：
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raft.github.io/&#34;&gt;https://raft.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/consul&#34;&gt;https://github.com/hashicorp/consul&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务代理（正向代理和反向代理）：&lt;a href=&#34;https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c&#34;&gt;https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gRPC: &lt;a href=&#34;https://github.com/grpc/grpc-go&#34;&gt;https://github.com/grpc/grpc-go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;web系统：&lt;a href=&#34;https://beego.me/&#34;&gt;https://beego.me/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;上面这些，作者自己也在不停的学习当中，希望对读者能有一定的启发。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>性能优化/压力测试 - 方法论</title>
       <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
       <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>

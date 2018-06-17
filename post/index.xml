@@ -6,10 +6,19 @@
     <description>Recent content in Posts on weiweimilk - just another blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jun 2018 22:45:00 +0800</lastBuildDate>
     
 	<atom:link href="https://weiweimilk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>新语言的学习 - golang</title>
+      <link>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</link>
+      <pubDate>Sun, 17 Jun 2018 22:45:00 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</guid>
+      <description>背景 程序员生涯，会学多门计算机语言，从c/c++到java，再到最新的golang，平时还有使用python写写处理脚本等等，那么学习一门新</description>
+    </item>
     
     <item>
       <title>性能优化/压力测试 - 方法论</title>
