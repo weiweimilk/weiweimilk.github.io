@@ -308,52 +308,5 @@
       
     </item>
     
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</guid>
-      
-        <description>&lt;p&gt;dwz服务
-基本原理
-实现方案
-分配一个短链接
-指定一个短链接&lt;/p&gt;
-
-&lt;p&gt;cache方案
-refer: &lt;a href=&#34;http://wiki.baidu.com/display/table?src=sidebar&#34;&gt;http://wiki.baidu.com/display/table?src=sidebar&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;dwz的生成算法&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wiki.baidu.com/display/DWZ?src=sidebar&#34;&gt;http://wiki.baidu.com/display/DWZ?src=sidebar&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;https://github.com/uber/chaperone&#34;&gt;https://github.com/uber/chaperone&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/open-source/prometheus/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/open-source/prometheus/example/</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/Prometheus-theory-source-code&#34;&gt;http://www.infoq.com/cn/articles/Prometheus-theory-source-code&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
   </channel>
 </rss>

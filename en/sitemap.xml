@@ -45,24 +45,6 @@
   </url>
   
   <url>
-    <loc>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/post/open-source/prometheus/example/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://weiweimilk.github.io/categories/career-development/</loc>
     <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>

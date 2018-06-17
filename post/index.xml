@@ -56,32 +56,5 @@
       <description>前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/distribute-system/dwz-todo/</guid>
-      <description>dwz服务 基本原理 实现方案 分配一个短链接 指定一个短链接 cache方案 refer: http://wiki.baidu.com/display/table?src=sidebar dwz的生成算法 http://wiki.baidu.com/display/DWZ?src=sidebar</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/open-source/kafka/chaperone/</guid>
-      <description>https://github.com/uber/chaperone</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://weiweimilk.github.io/post/open-source/prometheus/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/open-source/prometheus/example/</guid>
-      <description>http://www.infoq.com/cn/articles/Prometheus-theory-source-code</description>
-    </item>
-    
   </channel>
 </rss>
