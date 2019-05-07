@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anomalydection on weiweimilk - just another blog</title>
+    <link>https://weiweimilk.github.io/tags/anomalydection/</link>
+    <description>Recent content in Anomalydection on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://weiweimilk.github.io/tags/anomalydection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于时序数据的异常监测算法初探</title>
+      <link>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</link>
+      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</guid>
+      <description>背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg</description>
+    </item>
+    
+  </channel>
+</rss>

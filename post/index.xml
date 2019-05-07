@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>基于时序数据的异常监测算法初探</title>
+      <link>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</link>
+      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</guid>
+      <description>背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg</description>
+    </item>
+    
+    <item>
       <title>性能优化/压力测试 - 方法论</title>
       <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
       <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
@@ -54,6 +63,15 @@
       
       <guid>https://weiweimilk.github.io/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/</guid>
       <description>前言： &amp;gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &amp;gt; * consistency(一致性): 每次read，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://weiweimilk.github.io/post/monitor-system/effective-monitoring-and-alerting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/monitor-system/effective-monitoring-and-alerting/</guid>
+      <description>总体介绍 在 认为对了解监控和告警是十分有用的 建议报警新人必读科目 重点介绍前5章 Chapter1: introduction proactive: 人工盯屏 reactive：自动化监测并发送通告 定义 monitoring &amp;amp; al</description>
     </item>
     
   </channel>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Archive - weiweimilk - just another blog</title>
+  <title>基于时序数据的异常监测算法初探 - weiweimilk - just another blog</title>
   <link rel="alternate" hreflang="en" href="https://weiweimilk.github.io/" />
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="weiweimilk" />
-  <meta name="description" content="A blog for weiweimilk" />
+  <meta name="description" content="背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg" />
+
   <meta name="keywords" content="programmer, analysist, monitor" />
 
 
@@ -36,8 +37,7 @@
 <meta name="generator" content="Hugo 0.41" />
 
 
-<link rel="canonical" href="https://weiweimilk.github.io/post/" />
-<link href="https://weiweimilk.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="weiweimilk - just another blog" />
+<link rel="canonical" href="https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/" />
 
 
 
@@ -57,30 +57,41 @@
 
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A blog for weiweimilk" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://weiweimilk.github.io/post/" />
+<meta property="og:title" content="基于时序数据的异常监测算法初探" />
+<meta property="og:description" content="背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/" />
 
 
 
-<meta property="og:updated_time" content="2018-06-02T17:51:02&#43;08:00"/>
+<meta property="article:published_time" content="2018-06-15T01:43:02&#43;08:00"/>
 
-
-
-
-
-
+<meta property="article:modified_time" content="2018-06-15T01:43:02&#43;08:00"/>
 
 
 
 
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="A blog for weiweimilk">
 
+
+
+
+
+
+
+<meta itemprop="name" content="基于时序数据的异常监测算法初探">
+<meta itemprop="description" content="背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg">
+
+
+<meta itemprop="datePublished" content="2018-06-15T01:43:02&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-15T01:43:02&#43;08:00" />
+<meta itemprop="wordCount" content="9">
+
+
+
+<meta itemprop="keywords" content="anomalyDection," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A blog for weiweimilk"/>
+<meta name="twitter:title" content="基于时序数据的异常监测算法初探"/>
+<meta name="twitter:description" content="背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -289,96 +300,110 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">基于时序数据的异常监测算法初探</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-15 </span>
+        <div class="post-category">
+            
+              <a href="/categories/algorithm/"> algorithm </a>
+            
+          </div>
+        <span class="more-meta"> 9 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#背景">背景</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="背景">背景</h1>
+
+<p><a href="https://zhuanlan.zhihu.com/p/43413564">https://zhuanlan.zhihu.com/p/43413564</a></p>
+
+<p><a href="http://nerds.airbnb.com/anomaly-detection/">http://nerds.airbnb.com/anomaly-detection/</a></p>
+
+<p><a href="https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh">https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh</a></p>
+
+<p><a href="https://www.afenxi.com/10521.html">https://www.afenxi.com/10521.html</a></p>
+
+<p><a href="https://zhuanlan.zhihu.com/p/27540819">https://zhuanlan.zhihu.com/p/27540819</a></p>
+
+<p><a href="https://www.zhihu.com/question/38066650">https://www.zhihu.com/question/38066650</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg">https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg</a></p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">weiweimilk</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-06-15</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-<section id="archive" class="archive">
+          <a href="/tags/anomalydection/">anomalyDection</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/distribute-system/golang-study-2018-06-17/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">新语言的学习 - golang</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/stress-test-skill-2018-06-15/">
+            <span class="next-text nav-default">性能优化/压力测试 - 方法论</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
     
-      <div class="collection-title">
-        <h2 class="archive-year">2018</h2>
-      </div>
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2018-06-02
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/monitor-system/01-monitor-system-overview-2018-06-02/" class="archive-post-link">
-          监控系统系列：（一）总览
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2018-05-25
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/deep-thinking/deep-thinking-2018-05-25/" class="archive-post-link">
-          deep thinking
-        </a>
-      </span>
-    </div>
-    
-      <div class="collection-title">
-        <h2 class="archive-year">2017</h2>
-      </div>
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2017-08-31
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/" class="archive-post-link">
-          【translate】a-plain-english-introduction-to-cap-theorem
-        </a>
-      </span>
-    </div></section>
-
-
-
-
-
 
   
-  
+
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/post/">1</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/post/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/post/page/3/">3</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
-
+  </article>
         </div>
       </div>
     </main>

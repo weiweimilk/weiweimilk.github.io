@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</loc>
+    <lastmod>2018-06-15T01:43:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</loc>
     <lastmod>2018-06-15T01:43:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,6 +52,26 @@
   </url>
   
   <url>
+    <loc>https://weiweimilk.github.io/post/monitor-system/effective-monitoring-and-alerting/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://weiweimilk.github.io/categories/algorithm/</loc>
+    <lastmod>2018-06-15T01:43:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://weiweimilk.github.io/tags/anomalydection/</loc>
+    <lastmod>2018-06-15T01:43:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://weiweimilk.github.io/categories/career-development/</loc>
     <lastmod>2018-05-25T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -53,7 +80,7 @@
   
   <url>
     <loc>https://weiweimilk.github.io/categories/</loc>
-    <lastmod>2018-05-25T15:43:48+08:00</lastmod>
+    <lastmod>2018-06-15T01:43:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -116,7 +143,7 @@
   
   <url>
     <loc>https://weiweimilk.github.io/tags/</loc>
-    <lastmod>2018-06-17T22:45:00+08:00</lastmod>
+    <lastmod>2018-06-15T01:43:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

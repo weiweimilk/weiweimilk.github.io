@@ -93,6 +93,34 @@
     </item>
     
     <item>
+      <title>基于时序数据的异常监测算法初探</title>
+      <link>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</link>
+      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;背景&#34;&gt;背景&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/43413564&#34;&gt;https://zhuanlan.zhihu.com/p/43413564&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nerds.airbnb.com/anomaly-detection/&#34;&gt;http://nerds.airbnb.com/anomaly-detection/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh&#34;&gt;https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.afenxi.com/10521.html&#34;&gt;https://www.afenxi.com/10521.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27540819&#34;&gt;https://zhuanlan.zhihu.com/p/27540819&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/38066650&#34;&gt;https://www.zhihu.com/question/38066650&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg&#34;&gt;https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>性能优化/压力测试 - 方法论</title>
       <link>https://weiweimilk.github.io/post/stress-test-skill-2018-06-15/</link>
       <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
@@ -315,6 +343,226 @@
 &lt;h2 id=&#34;chapter-3&#34;&gt;chapter 3:&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ksat.me/a-plain-english-introduction-to-cap-theorem/&#34;&gt;http://ksat.me/a-plain-english-introduction-to-cap-theorem/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://weiweimilk.github.io/post/monitor-system/effective-monitoring-and-alerting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/monitor-system/effective-monitoring-and-alerting/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;总体介绍&#34;&gt;总体介绍&lt;/h1&gt;
+
+&lt;p&gt;在
+认为对了解监控和告警是十分有用的
+建议报警新人必读科目
+重点介绍前5章&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter1-introduction&#34;&gt;Chapter1: introduction&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;proactive: 人工盯屏&lt;/li&gt;
+&lt;li&gt;reactive：自动化监测并发送通告&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;定义&#34;&gt;定义&lt;/h2&gt;
+
+&lt;p&gt;monitoring &amp;amp; alerting（规定本书覆盖的范围）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitoring: 包括data collection, data processing, presentation&lt;/li&gt;
+&lt;li&gt;Alerting: 监测并通知状态变化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;early problem detection
+
+&lt;ul&gt;
+&lt;li&gt;availability&lt;/li&gt;
+&lt;li&gt;performance&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;decision making
+
+&lt;ul&gt;
+&lt;li&gt;baseling(SLA, capacity planning, 问题复盘分析)&lt;/li&gt;
+&lt;li&gt;prediction(isp流量，商业趋势）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;automation
+
+&lt;ul&gt;
+&lt;li&gt;admission control(自动降级)&lt;/li&gt;
+&lt;li&gt;自治计算(自动)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;baselining
+
+&lt;ul&gt;
+&lt;li&gt;基线变化太快&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;coverage
+
+&lt;ul&gt;
+&lt;li&gt;系统扩容和架构调整，如何保证加全了&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;manageability
+
+&lt;ul&gt;
+&lt;li&gt;系统管理方法和丰富的指导文档&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;accuracy
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;context
+
+&lt;ul&gt;
+&lt;li&gt;报警了，如何定位问题&lt;/li&gt;
+&lt;li&gt;业务相关，专家经验（故障定位）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;human nature
+
+&lt;ul&gt;
+&lt;li&gt;忽略核心告警&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;后面的作为第二次讲解&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter2-monitoring&#34;&gt;Chapter2: Monitoring&lt;/h1&gt;
+
+&lt;p&gt;讲解指标采集，指标类型、指标含义解释，从趋势图看指标异常pattern，以及异常的解释&lt;/p&gt;
+
+&lt;h2 id=&#34;组成部分&#34;&gt;组成部分&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;data collection(with agent)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;white box
+
+&lt;ul&gt;
+&lt;li&gt;log parser&lt;/li&gt;
+&lt;li&gt;log scanner&lt;/li&gt;
+&lt;li&gt;interface reader&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;black box
+
+&lt;ul&gt;
+&lt;li&gt;probers(http call)&lt;/li&gt;
+&lt;li&gt;sniffers(tcpdump)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;agentless data collection(snmp)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;coverage-监控项的覆盖范围&#34;&gt;coverage(监控项的覆盖范围)&lt;/h2&gt;
+
+&lt;p&gt;见图2-1&lt;/p&gt;
+
+&lt;h2 id=&#34;metrics&#34;&gt;metrics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;summary statistics&lt;/li&gt;
+&lt;li&gt;frequency distribution and percentiles&lt;/li&gt;
+&lt;li&gt;metric aggragation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;understanding-metrics&#34;&gt;understanding metrics&lt;/h2&gt;
+
+&lt;p&gt;??&lt;/p&gt;
+
+&lt;h2 id=&#34;timeseries-patterns&#34;&gt;timeseries patterns&lt;/h2&gt;
+
+&lt;p&gt;猜测下是哪种指标类型&lt;/p&gt;
+
+&lt;h2 id=&#34;drawing-conclusions-from-timeseries-plots&#34;&gt;drawing conclusions from timeseries plots&lt;/h2&gt;
+
+&lt;p&gt;??&lt;/p&gt;
+
+&lt;h2 id=&#34;frequently-encountered-anomalies&#34;&gt;frequently encountered anomalies&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flatterning effect&lt;/li&gt;
+&lt;li&gt;warm-up effect&lt;/li&gt;
+&lt;li&gt;regular anomlies&lt;/li&gt;
+&lt;li&gt;spikes during throughs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;determining-causality-如何故障定位&#34;&gt;determining causality(如何故障定位)&lt;/h2&gt;
+
+&lt;p&gt;里面讲解了一个例子来说明如何定位问题（根据什么现象，如何分析等等）&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter3-alerting&#34;&gt;chapter3: Alerting&lt;/h1&gt;
+
+&lt;p&gt;trade-off: 时效性 和 准确性&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;monitoring and alerting platform&lt;/li&gt;
+&lt;li&gt;audit trail(审查跟踪，可以接入事件流图)&lt;/li&gt;
+&lt;li&gt;issue tracking（故障处理跟踪, oncall平台）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;identifying-casues&#34;&gt;identifying casues&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;resource unavailability or saturation&lt;/li&gt;
+&lt;li&gt;software problems&lt;/li&gt;
+&lt;li&gt;misconfigurations&lt;/li&gt;
+&lt;li&gt;hardware defects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;anatomy-of-an-alarm&#34;&gt;anatomy of an alarm&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;metric monitor&lt;/li&gt;
+&lt;li&gt;time evaluation&lt;/li&gt;
+&lt;li&gt;another alarm as input source（and or count）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 3-2&lt;/p&gt;
+
+&lt;h2 id=&#34;suppression&#34;&gt;suppression&lt;/h2&gt;
+
+&lt;p&gt;报警依赖是放在异常判断判断&lt;/p&gt;
+
+&lt;h2 id=&#34;configuring-monitors&#34;&gt;configuring monitors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;comming up with a threshold
+
+&lt;ul&gt;
+&lt;li&gt;static thresholds(utilization limit, sli)&lt;/li&gt;
+&lt;li&gt;data-driven threshold(根据近期的历史数据，计算出阈值，参数化)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;breach and clear delay(TODO: 见例子)&lt;/li&gt;
+&lt;li&gt;testing alerting configurations(smoke test)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;alerting-suggestions&#34;&gt;alerting suggestions&lt;/h2&gt;
+
+&lt;p&gt;(TODO:见例子)&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter4-at-scale-大规模系统的监控&#34;&gt;chapter4: At Scale（大规模系统的监控）&lt;/h1&gt;
+
+&lt;h1 id=&#34;chapter5-automation-自动化&#34;&gt;chapter5: Automation(自动化)&lt;/h1&gt;
 </description>
       
     </item>
