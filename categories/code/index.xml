@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on weiweimilk - just another blog</title>
+    <link>https://weiweimilk.github.io/categories/code/</link>
+    <description>Recent content in Code on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Jun 2019 17:51:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://weiweimilk.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>thinkings about code review</title>
+      <link>https://weiweimilk.github.io/post/code-review/</link>
+      <pubDate>Tue, 11 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/code-review/</guid>
+      <description>Preface 感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏 痛定思痛，觉得这是程序员的基本功，需要自己多修炼 自己code</description>
+    </item>
+    
+  </channel>
+</rss>

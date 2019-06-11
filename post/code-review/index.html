@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>weiweimilk - just another blog</title>
+  <title>thinkings about code review - weiweimilk - just another blog</title>
   <link rel="alternate" hreflang="en" href="https://weiweimilk.github.io/" />
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="weiweimilk" />
-  <meta name="description" content="A blog for weiweimilk" />
+  <meta name="description" content="Preface 感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏 痛定思痛，觉得这是程序员的基本功，需要自己多修炼 自己code" />
+
   <meta name="keywords" content="programmer, analysist, monitor" />
 
 
@@ -36,8 +37,7 @@
 <meta name="generator" content="Hugo 0.41" />
 
 
-<link rel="canonical" href="https://weiweimilk.github.io/" />
-<link href="https://weiweimilk.github.io/index.xml" rel="alternate" type="application/rss+xml" title="weiweimilk - just another blog" />
+<link rel="canonical" href="https://weiweimilk.github.io/post/code-review/" />
 
 
 
@@ -57,30 +57,41 @@
 
 
 
-<meta property="og:title" content="weiweimilk - just another blog" />
-<meta property="og:description" content="A blog for weiweimilk" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://weiweimilk.github.io/" />
+<meta property="og:title" content="thinkings about code review" />
+<meta property="og:description" content="Preface 感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏 痛定思痛，觉得这是程序员的基本功，需要自己多修炼 自己code" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://weiweimilk.github.io/post/code-review/" />
 
 
 
-<meta property="og:updated_time" content="2017-08-31T15:43:48&#43;08:00"/>
+<meta property="article:published_time" content="2019-06-11T17:51:02&#43;08:00"/>
 
-
-
-
-
-
+<meta property="article:modified_time" content="2019-06-11T17:51:02&#43;08:00"/>
 
 
 
 
-<meta itemprop="name" content="weiweimilk - just another blog">
-<meta itemprop="description" content="A blog for weiweimilk">
 
+
+
+
+
+
+
+<meta itemprop="name" content="thinkings about code review">
+<meta itemprop="description" content="Preface 感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏 痛定思痛，觉得这是程序员的基本功，需要自己多修炼 自己code">
+
+
+<meta itemprop="datePublished" content="2019-06-11T17:51:02&#43;08:00" />
+<meta itemprop="dateModified" content="2019-06-11T17:51:02&#43;08:00" />
+<meta itemprop="wordCount" content="825">
+
+
+
+<meta itemprop="keywords" content="code-review," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="weiweimilk - just another blog"/>
-<meta name="twitter:description" content="A blog for weiweimilk"/>
+<meta name="twitter:title" content="thinkings about code review"/>
+<meta name="twitter:description" content="Preface 感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏 痛定思痛，觉得这是程序员的基本功，需要自己多修炼 自己code"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -289,112 +300,220 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">thinkings about code review</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2019-06-11 </span>
+        <div class="post-category">
+            
+              <a href="/categories/code/"> code </a>
+            
+          </div>
+        <span class="more-meta"> 825 words </span>
+        <span class="more-meta"> 2 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#preface">Preface</a></li>
+<li><a href="#aims">Aims</a></li>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#review-points">Review Points</a></li>
+<li><a href="#notices">Notices</a></li>
+<li><a href="#beyond-the-code">Beyond the code</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="preface">Preface</h1>
+
+<ul>
+<li>感想：自己工作近4年了，一直不注意code review，踩过很多坑，吃过很多亏</li>
+<li>痛定思痛，觉得这是程序员的基本功，需要自己多修炼</li>
+<li>自己code review自己的代码是可行的（分不同时间段）</li>
+<li>code review和写代码是一样重要，时间比例为1:1</li>
+<li>code review的目标：提高代码质量</li>
+</ul>
+
+<h1 id="aims">Aims</h1>
+
+<ul>
+<li>提高代码质量（code quality）</li>
+<li>尽早发现bug（save money in the long run）</li>
+<li>知识共享，学习和熟悉业务流程（share knowledge）</li>
+<li>统一代码风格，提供可读性和可维护性</li>
+<li>代码的可扩展性和性能</li>
+<li>帮助新人成长（mentor）</li>
+</ul>
+
+<h1 id="steps">Steps</h1>
+
+<ol>
+<li>系统全貌：模块划分的逻辑，模块间的关系</li>
+<li>模块级别：看清模块内的逻辑，关键数据，关键的类、函数</li>
+<li>类、函数内部的逻辑</li>
+<li>细节：layout, naming&hellip;</li>
+</ol>
+
+<h1 id="review-points">Review Points</h1>
+
+<ul>
+<li>功能检查
+
+<ul>
+<li>是否实现了预期的功能</li>
+<li>如果是较大的变更，需要提供详细设计文档，了解改动的背景和目标、主要设计思路等等</li>
+</ul></li>
+<li>浅层次正确性检查
+
+<ul>
+<li>代码里的格式、符号、命名等风格是否保持一致</li>
+<li>所有的注释是否正确</li>
+</ul></li>
+<li>深层次正确性检查
+
+<ul>
+<li>是否陷入死循环</li>
+</ul></li>
+<li>健壮性检查
+
+<ul>
+<li>是否避免运行时错误</li>
+</ul></li>
+<li>可读性检查
+
+<ul>
+<li>是否使用了不明确或不必要的复杂代码</li>
+<li>代码格式是否统一（缩进用4个空格）</li>
+<li>变量和函数的命名是否便于理解</li>
+<li>代码本身是否可读？好的代码不需要注释</li>
+<li>注释是否足够清晰</li>
+</ul></li>
+<li>代码结构检查
+
+<ul>
+<li>类和函数的耦合度和重复度检查</li>
+<li>API设计是否合理？参数和返回值是否合理？</li>
+</ul></li>
+<li>性能检查
+
+<ul>
+<li>实现是否是性能最优？</li>
+<li>是否存在不必要的拷贝</li>
+<li>锁的粒度是否是最优的？</li>
+</ul></li>
+<li>可扩展性检查
+
+<ul>
+<li>类和函数的设计是否便于后期需求的实现</li>
+</ul></li>
+</ul>
+
+<h1 id="notices">Notices</h1>
+
+<ul>
+<li>在必要的时候，review的双方做面对面的沟通</li>
+<li>对关键模块，建立owner制度</li>
+<li>对review中发现的问题，一追到底</li>
+<li>小步快跑：一次review的时候，不要提交太多代码量</li>
+<li>为code review预留出足够多的时间</li>
+</ul>
+
+<h1 id="beyond-the-code">Beyond the code</h1>
+
+<ul>
+<li>review系统需求分析的质量</li>
+<li>review接口/函数定义的合理性</li>
+<li>review模块划分的合理性</li>
+<li>review系统关键机制的合理性</li>
+<li>you can challenge everything!</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<ul>
+<li>左耳朵耗子谈code review
+
+<ul>
+<li><a href="https://coolshell.cn/articles/11432.html">https://coolshell.cn/articles/11432.html</a></li>
+</ul></li>
+<li>Golang code style:
+
+<ul>
+<li><a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+</ul></li>
+<li>推荐书籍
+
+<ul>
+<li>《编写可读代码的艺术》</li>
+<li>《代码整洁之道》</li>
+</ul></li>
+</ul>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">weiweimilk</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2019-06-11</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-  <section id="posts" class="posts">
-    
-    
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/">【translate】a-plain-english-introduction-to-cap-theorem</a></h1>
-    
-    <div class="post-meta">
-      <span class="post-time"> 2017-08-31 </span>
-      <div class="post-category">
-          
-            <a href="/categories/distribute-system/"> distribute system </a>
+          <a href="/tags/code-review/">code-review</a>
           
         </div>
-      <span class="more-meta"> 888 words </span>
-      <span class="more-meta"> 2 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      前言： &gt; 在理论计算机系统中，CAP理论是指对分布式数据存储，不可能同时满足以下三个提交： &gt; * consistency(一致性): 每次read，
-    </div>
-    <div class="read-more">
-      <a href="/post/distribute-system/a-plain-english-introduction-to-cap-theorem-in-translate-2017-08-31/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
 
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/monitor-system/effective-monitoring-and-alerting/"></a></h1>
-    
-    <div class="post-meta">
-      <span class="post-time"> 0001-01-01 </span>
       
-      <span class="more-meta"> 659 words </span>
-      <span class="more-meta"> 2 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/distribute-system/golang-study-2018-06-17/">
+            <span class="next-text nav-default">新语言的学习 - golang</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
     
-    <div class="post-summary">
-      总体介绍 在 认为对了解监控和告警是十分有用的 建议报警新人必读科目 重点介绍前5章 Chapter1: introduction proactive: 人工盯屏 reactive：自动化监测并发送通告 定义 monitoring &amp; al
-    </div>
-    <div class="read-more">
-      <a href="/post/monitor-system/effective-monitoring-and-alerting/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
 
-    
-  </section>
-
-  
-  
-
-
-
-  
-  
   
 
   
-  
 
   
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/page/3/">3</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
-
+  </article>
         </div>
       </div>
     </main>

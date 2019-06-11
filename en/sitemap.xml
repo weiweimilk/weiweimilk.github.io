@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://weiweimilk.github.io/post/code-review/</loc>
+    <lastmod>2019-06-11T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</loc>
     <lastmod>2018-06-17T22:45:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,6 +93,20 @@
   </url>
   
   <url>
+    <loc>https://weiweimilk.github.io/categories/code/</loc>
+    <lastmod>2019-06-11T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://weiweimilk.github.io/tags/code-review/</loc>
+    <lastmod>2019-06-11T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://weiweimilk.github.io/categories/distribute-system/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,6 +136,13 @@
   
   <url>
     <loc>https://weiweimilk.github.io/post/</loc>
+    <lastmod>2019-06-11T17:51:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://weiweimilk.github.io/tags/skill/</loc>
     <lastmod>2018-06-17T22:45:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -123,13 +151,6 @@
   <url>
     <loc>https://weiweimilk.github.io/categories/skill/</loc>
     <lastmod>2018-06-15T01:43:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://weiweimilk.github.io/tags/skill/</loc>
-    <lastmod>2018-06-17T22:45:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
