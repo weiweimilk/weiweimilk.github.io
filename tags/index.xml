@@ -6,19 +6,10 @@
     <description>Recent content in Tags on weiweimilk - just another blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 17:51:02 +0800</lastBuildDate>
     
 	<atom:link href="https://weiweimilk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Anomalydection</title>
-      <link>https://weiweimilk.github.io/tags/anomalydection/</link>
-      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
-      
-      <guid>https://weiweimilk.github.io/tags/anomalydection/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Code Review</title>
@@ -26,6 +17,15 @@
       <pubDate>Tue, 11 Jun 2019 17:51:02 +0800</pubDate>
       
       <guid>https://weiweimilk.github.io/tags/code-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Document</title>
+      <link>https://weiweimilk.github.io/tags/document/</link>
+      <pubDate>Sat, 29 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/tags/document/</guid>
       <description></description>
     </item>
     

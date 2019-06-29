@@ -35,6 +35,74 @@
     </item>
     
     <item>
+      <title>write technology document</title>
+      <link>https://weiweimilk.github.io/post/write-technology-document/</link>
+      <pubDate>Sat, 29 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/write-technology-document/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;背景&#34;&gt;背景&lt;/h1&gt;
+
+&lt;p&gt;最近一年主要时间都是在写文档，自己深知在互联网产品迭代中，文档的重要性，自己也写了3个左右的大文档，一直对好的文档没有概念，今天特意来总结一下；&lt;/p&gt;
+
+&lt;p&gt;首先来看下，工作中场景的文档有哪些；&lt;/p&gt;
+
+&lt;h1 id=&#34;文档类型&#34;&gt;文档类型&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MRD：描述产品的需求和具体的使用场景&lt;/li&gt;
+&lt;li&gt;PRD：从用户角度描述产品的实现逻辑和使用界面&lt;/li&gt;
+&lt;li&gt;概要设计文档：从研发角度描述产品的业务模型、系统架构和部署架构；&lt;/li&gt;
+&lt;li&gt;中层设计文档：对系统架构进行模块划分，并说明模块之间的接口和行为；&lt;/li&gt;
+&lt;li&gt;详细设计文档：对每个子模块的实现逻辑、数据流程图、关键算法进行描述，还要说明下里面的实现注意点；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;好文档的标准&#34;&gt;好文档的标准&lt;/h1&gt;
+
+&lt;h2 id=&#34;有价值&#34;&gt;有价值&lt;/h2&gt;
+
+&lt;p&gt;文档的目的在于沟通交流，让别人明白你想要做什么？怎么做？同时在写文档的时候，也能迫使自己深入思考，自己做这个事情是否有价值，如果没有价值，文档写再好，别人也不会看的。&lt;/p&gt;
+
+&lt;h2 id=&#34;主题专一&#34;&gt;主题专一&lt;/h2&gt;
+
+&lt;p&gt;确认了做的事情是有价值的，那下面就是如何将事情讲明白，一篇好的文档往往只说一个主题，全面都是在围绕这个主题的背景、解决方案、权衡点、实现注意点等等，千万不能好几个点混在一起说，往往事情说不清楚，读者也比较蒙。&lt;/p&gt;
+
+&lt;h2 id=&#34;文档结构条理&#34;&gt;文档结构条理&lt;/h2&gt;
+
+&lt;p&gt;结构条理，实际就是金字塔结构，读文档的人一般是先读目录，往往目录就是这篇文档的大纲。&lt;/p&gt;
+
+&lt;h2 id=&#34;丝滑般顺畅&#34;&gt;丝滑般顺畅&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对一些大的背景，要在开头统一介绍下，这样读文档才会更顺畅&lt;/li&gt;
+&lt;li&gt;从头到尾，第一次出现新的专有名词的时候，一定要解释&lt;/li&gt;
+&lt;li&gt;对一些专有名词，使用一定要统一，不要随意使用&lt;/li&gt;
+&lt;li&gt;大声朗读或默念自己写的每一行字，如果不通顺，那么就需要修改&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;难点-不仅说明what-还要说明why&#34;&gt;难点: 不仅说明what，还要说明why&lt;/h2&gt;
+
+&lt;p&gt;好的文档，不仅直接告诉读者是什么，应该怎么做，还要为什么这么做，也就是要知其然，更要知其所以然，这样用户可以立即评判这么做是否认同。&lt;/p&gt;
+
+&lt;h2 id=&#34;好图胜千言&#34;&gt;好图胜千言&lt;/h2&gt;
+
+&lt;p&gt;首先要精通一个画图软件，常见图有架构图、时序图、流程图，另外还有比较专业的UML图。&lt;/p&gt;
+
+&lt;h2 id=&#34;多问自己一些问题&#34;&gt;多问自己一些问题&lt;/h2&gt;
+
+&lt;p&gt;为了提高这一点，我想我们写文档时，应当多问自己一些问题，比如，读者具有与我一样的知识和经验吗？如果没有，我应当写哪些以弥补这种信息的不对称性呢？我写的这篇文档是基于一定的假设吗？如果是，是否应当将这一假设在文档中交代清楚呢？我所写的内容是否都在支持文档的主题呢？是否存在正交问题（即答非所问的问题）？等等。
+(这段话from &lt;a href=&#34;https://blog.51cto.com/yunli/168352&#34;&gt;https://blog.51cto.com/yunli/168352&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;# reference
+* &lt;a href=&#34;http://tldp.org/&#34;&gt;http://tldp.org/&lt;/a&gt;
+* &lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&#34;&gt;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>thinkings about code review</title>
       <link>https://weiweimilk.github.io/post/code-review/</link>
       <pubDate>Tue, 11 Jun 2019 17:51:02 +0800</pubDate>
@@ -225,34 +293,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;上面这些，作者自己也在不停的学习当中，希望对读者能有一定的启发。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>基于时序数据的异常监测算法初探</title>
-      <link>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</link>
-      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;背景&#34;&gt;背景&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/43413564&#34;&gt;https://zhuanlan.zhihu.com/p/43413564&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nerds.airbnb.com/anomaly-detection/&#34;&gt;http://nerds.airbnb.com/anomaly-detection/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh&#34;&gt;https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.afenxi.com/10521.html&#34;&gt;https://www.afenxi.com/10521.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27540819&#34;&gt;https://zhuanlan.zhihu.com/p/27540819&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/38066650&#34;&gt;https://www.zhihu.com/question/38066650&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg&#34;&gt;https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>

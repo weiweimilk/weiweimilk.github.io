@@ -6,19 +6,10 @@
     <description>Recent content in Categories on weiweimilk - just another blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Jun 2018 01:43:02 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 May 2018 15:43:48 +0800</lastBuildDate>
     
 	<atom:link href="https://weiweimilk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Algorithm</title>
-      <link>https://weiweimilk.github.io/categories/algorithm/</link>
-      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
-      
-      <guid>https://weiweimilk.github.io/categories/algorithm/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Career Development</title>
@@ -62,6 +53,15 @@
       <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
       
       <guid>https://weiweimilk.github.io/categories/skill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writer</title>
+      <link>https://weiweimilk.github.io/categories/writer/</link>
+      <pubDate>Sat, 29 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/categories/writer/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on weiweimilk - just another blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jun 2019 17:51:02 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2019 17:51:02 +0800</lastBuildDate>
     
 	<atom:link href="https://weiweimilk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>write technology document</title>
+      <link>https://weiweimilk.github.io/post/write-technology-document/</link>
+      <pubDate>Sat, 29 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/write-technology-document/</guid>
+      <description>背景 最近一年主要时间都是在写文档，自己深知在互联网产品迭代中，文档的重要性，自己也写了3个左右的大文档，一直对好的文档没有概念，今天特意来总</description>
+    </item>
     
     <item>
       <title>thinkings about code review</title>
@@ -27,15 +36,6 @@
       
       <guid>https://weiweimilk.github.io/post/distribute-system/golang-study-2018-06-17/</guid>
       <description>背景 程序员生涯，会学多门计算机语言，从c/c++到java，再到最新的golang，平时还有使用python写写处理脚本等等，那么学习一门新</description>
-    </item>
-    
-    <item>
-      <title>基于时序数据的异常监测算法初探</title>
-      <link>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</link>
-      <pubDate>Fri, 15 Jun 2018 01:43:02 +0800</pubDate>
-      
-      <guid>https://weiweimilk.github.io/post/algorithm/anomalydetectionalgorithmontimeseriesdata/</guid>
-      <description>背景 https://zhuanlan.zhihu.com/p/43413564 http://nerds.airbnb.com/anomaly-detection/ https://yq.aliyun.com/articles/669164?spm=a2c4e.11153959.0.0.1bbe47a204HWsh https://www.afenxi.com/10521.html https://zhuanlan.zhihu.com/p/27540819 https://www.zhihu.com/question/38066650 https://mp.weixin.qq.com/s/okKnaqJVV7bfS1_iUtdIWg</description>
     </item>
     
     <item>

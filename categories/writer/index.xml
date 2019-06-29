@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writer on weiweimilk - just another blog</title>
+    <link>https://weiweimilk.github.io/categories/writer/</link>
+    <description>Recent content in Writer on weiweimilk - just another blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jun 2019 17:51:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://weiweimilk.github.io/categories/writer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>write technology document</title>
+      <link>https://weiweimilk.github.io/post/write-technology-document/</link>
+      <pubDate>Sat, 29 Jun 2019 17:51:02 +0800</pubDate>
+      
+      <guid>https://weiweimilk.github.io/post/write-technology-document/</guid>
+      <description>背景 最近一年主要时间都是在写文档，自己深知在互联网产品迭代中，文档的重要性，自己也写了3个左右的大文档，一直对好的文档没有概念，今天特意来总</description>
+    </item>
+    
+  </channel>
+</rss>
