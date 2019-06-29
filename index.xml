@@ -95,9 +95,12 @@
 &lt;p&gt;为了提高这一点，我想我们写文档时，应当多问自己一些问题，比如，读者具有与我一样的知识和经验吗？如果没有，我应当写哪些以弥补这种信息的不对称性呢？我写的这篇文档是基于一定的假设吗？如果是，是否应当将这一假设在文档中交代清楚呢？我所写的内容是否都在支持文档的主题呢？是否存在正交问题（即答非所问的问题）？等等。
 (这段话from &lt;a href=&#34;https://blog.51cto.com/yunli/168352&#34;&gt;https://blog.51cto.com/yunli/168352&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;# reference
-* &lt;a href=&#34;http://tldp.org/&#34;&gt;http://tldp.org/&lt;/a&gt;
-* &lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&#34;&gt;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;reference&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tldp.org/&#34;&gt;http://tldp.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&#34;&gt;http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
